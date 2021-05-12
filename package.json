@@ -61,7 +61,8 @@
     "watch": "tsc -watch -p ./",
     "lint": "eslint src --ext ts",
     "package": "vsce package",
-    "install:local": "code --install-extension sharable-kanban-boards-1.0.0.vsix"
+    "install:local": "code --install-extension sharable-kanban-boards-1.0.0.vsix",
+    "publish": "vsce publish"
   },
   "dependencies": {},
   "devDependencies": {
