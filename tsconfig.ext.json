@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "es2019"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "outDir": "out",
+    "rootDir": "src-ext",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": false,
+    "target": "es5"
+  },
+  "exclude": ["node_modules", ".vscode-test"],
+  "include": ["src-ext/**/*"]
+}

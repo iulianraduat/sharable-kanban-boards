@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+	<svg width="256" height="256">
+		<rect x="10" y="10" width="240" height="240" style="fill:#ffffff;stroke-width:3;stroke:#444444" />
+		<rect x="40" y="25" width="180" height="20" style="fill:#eeeeee;stroke-width:1;stroke:#444444" />
+		<rect x="60" y="30" width="140" height="10" style="fill:#cccccc;stroke-width:1;stroke:#444444" />
+		<rect x="20" y="60" width="35" height="170" style="fill:#7eacd7;stroke-width:1;stroke:#444444" />
+		<rect x="65" y="60" width="35" height="120" style="fill:#88dd66;stroke-width:1;stroke:#444444" />
+		<rect x="110" y="60" width="35" height="90" style="fill:#dc8d30;stroke-width:1;stroke:#444444" />
+		<rect x="155" y="60" width="35" height="130" style="fill:#c7ab68;stroke-width:1;stroke:#444444" />
+		<rect x="200" y="60" width="35" height="50" style="fill:#d04669;stroke-width:1;stroke:#444444" />
+		<rect x="25" y="65" width="25" height="10" style="fill:#eeeeee;stroke-width:1;stroke:#444444" />
+		<rect x="70" y="65" width="25" height="10" style="fill:#eeeeee;stroke-width:1;stroke:#444444" />
+		<rect x="115" y="65" width="25" height="10" style="fill:#eeeeee;stroke-width:1;stroke:#444444" />
+		<rect x="160" y="65" width="25" height="10" style="fill:#eeeeee;stroke-width:1;stroke:#444444" />
+		<rect x="205" y="65" width="25" height="10" style="fill:#eeeeee;stroke-width:1;stroke:#444444" />
+	</svg>
+</svg>

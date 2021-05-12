@@ -1,0 +1,61 @@
+body.vscode-light {
+  color: black;
+}
+body.vscode-dark {
+  color: white;
+}
+body.vscode-high-contrast {
+  color: red;
+}
+body .MuiInputLabel-root,
+body .MuiInput-root,
+body .MuiFormHelperText-root {
+  color: var(--vscode-editor-foreground);
+}
+body .MuiInput-underline:before {
+  border-bottom-color: var(--vscode-editor-foreground);
+}
+,
+body .MuiInput-underline:after {
+  border-bottom-color: var(--vscode-editor-foreground);
+}
+body .MuiInput-underline:hover:before {
+  border-bottom-color: var(--vscode-editor-foreground) !important;
+}
+body .MuiInput-underline:hover:after {
+  border-bottom-color: var(--vscode-editor-foreground) !important;
+}
+body .MuiInput-formControl .MuiSvgIcon-root {
+  fill: var(--vscode-editor-foreground);
+}
+#due-date-picker-icon .MuiSvgIcon-root {
+  fill: var(--vscode-editor-foreground);
+}
+body .MuiFormControlLabel-root .MuiTypography-body1 {
+  font-size: 0.75rem;
+}
+svg .tick,
+svg .today {
+  display: none;
+}
+svg#svg-timeline {
+  margin-left: -37px;
+}
+svg#svg-timeline .taskTextOutsideLeft {
+  text-anchor: start;
+}
+svg#svg-timeline .taskTextOutsideRight {
+  text-anchor: end;
+}
+svg#svg-timeline .section {
+  fill: transparent;
+}
+svg#svg-timeline text.titleText {
+  fill: var(--vscode-editor-foreground);
+}
+svg#svg-flowchart-columns .actor {
+  fill: #00ffff;
+}
+p {
+  margin: 5px 0;
+}

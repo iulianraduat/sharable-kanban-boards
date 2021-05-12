@@ -1,0 +1,103 @@
+{
+  "name": "sharable-kanban-boards",
+  "displayName": "Sharable Kanban boards",
+  "description": "Shareable Kanban boards for Visual Studio Code",
+  "version": "1.0.0",
+  "icon": "images/logo.png",
+  "license": "GPL-3.0",
+  "publisher": "iulian-radu-at",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iulian-radu-at/sharable-kanban-boards"
+  },
+  "bugs": {
+    "url": "https://github.com/iulian-radu-at/sharable-kanban-boards/issues"
+  },
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "Kanban",
+    "Scram",
+    "Project",
+    "Management",
+    "Todo",
+    "Jira",
+    "sharable"
+  ],
+  "activationEvents": [
+    "onCommand:sharableKanbanBoards.create",
+    "onCommand:sharableKanbanBoards.open",
+    "onCommand:sharableKanbanBoards.delete"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "sharableKanbanBoards.create",
+        "title": "Create a new board",
+        "category": "Sharable Kanban boards"
+      },
+      {
+        "command": "sharableKanbanBoards.open",
+        "title": "Open a board",
+        "category": "Sharable Kanban boards"
+      },
+      {
+        "command": "sharableKanbanBoards.delete",
+        "title": "Delete a board",
+        "category": "Sharable Kanban boards"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p tsconfig.ext.json",
+    "build-webview": "react-app-rewired build && rimraf out/webview.js.LICENSE.txt && rimraf build",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts",
+    "package": "vsce package",
+    "install:local": "code --install-extension sharable-kanban-boards-1.0.0.vsix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.3.10",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^12.20.12",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "@types/uuid": "^8.3.0",
+    "@types/vscode": "^1.46.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.11.20",
+    "eslint": "^7.26.0",
+    "mocha": "^8.4.0",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.1.8",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "typescript": "^4.2.4",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vscode-test": "^1.5.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
