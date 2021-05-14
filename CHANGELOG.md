@@ -17,3 +17,17 @@ All notable changes to the "Sharable Kanban boards" extension will be documented
 ### Removed
 
 - Nothing
+
+## 1.0.1 (2021-05-14)
+
+### Added
+
+- Nothing
+
+### Changed
+
+- Indentation of list items
+
+### Removed
+
+- Nothing

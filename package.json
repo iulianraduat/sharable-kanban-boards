@@ -2,7 +2,7 @@
   "name": "sharable-kanban-boards",
   "displayName": "Sharable Kanban boards",
   "description": "Shareable Kanban boards for Visual Studio Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "images/logo.png",
   "license": "GPL-3.0",
   "publisher": "iulian-radu-at",
@@ -61,7 +61,7 @@
     "watch": "tsc -watch -p ./",
     "lint": "eslint src --ext ts",
     "package": "vsce package",
-    "install:local": "code --install-extension sharable-kanban-boards-1.0.0.vsix",
+    "install:local": "code --install-extension sharable-kanban-boards-1.0.1.vsix",
     "publish": "vsce publish"
   },
   "dependencies": {},
