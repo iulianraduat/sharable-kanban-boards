@@ -1,4 +1,4 @@
-# Kanban Boards
+# Shareable Kanban Boards
 
 [![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/iulian-radu-at.sharable-kanban-boards.svg)](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/iulian-radu-at.sharable-kanban-boards.svg)](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards)

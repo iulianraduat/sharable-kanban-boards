@@ -2,7 +2,7 @@
   "name": "sharable-kanban-boards",
   "displayName": "Shareable Kanban boards",
   "description": "Shareable Kanban boards for Visual Studio Code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icon": "images/logo.png",
   "license": "GPL-3.0",
   "publisher": "iulian-radu-at",
@@ -24,7 +24,7 @@
     "watch": "tsc -watch -p ./",
     "lint": "eslint src --ext ts",
     "package": "vsce package",
-    "install:local": "code --install-extension shareable-kanban-boards-1.0.2.vsix",
+    "install:local": "code --install-extension shareable-kanban-boards-1.0.3.vsix",
     "publish": "vsce publish"
   },
   "categories": [
@@ -40,27 +40,27 @@
     "shareable"
   ],
   "activationEvents": [
-    "onCommand:sharableKanbanBoards.create",
-    "onCommand:sharableKanbanBoards.open",
-    "onCommand:sharableKanbanBoards.delete"
+    "onCommand:shareableKanbanBoards.create",
+    "onCommand:shareableKanbanBoards.open",
+    "onCommand:shareableKanbanBoards.delete"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "sharableKanbanBoards.create",
+        "command": "shareableKanbanBoards.create",
         "title": "Create a new board",
-        "category": "Sharable Kanban boards"
+        "category": "Shareable Kanban boards"
       },
       {
-        "command": "sharableKanbanBoards.open",
+        "command": "shareableKanbanBoards.open",
         "title": "Open a board",
-        "category": "Sharable Kanban boards"
+        "category": "Shareable Kanban boards"
       },
       {
-        "command": "sharableKanbanBoards.delete",
+        "command": "shareableKanbanBoards.delete",
         "title": "Delete a board",
-        "category": "Sharable Kanban boards"
+        "category": "Shareable Kanban boards"
       }
     ]
   },

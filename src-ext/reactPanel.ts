@@ -21,8 +21,8 @@ export class ReactPanel {
 
     /* Otherwise, create a new panel */
     this.currentPanel = vscode.window.createWebviewPanel(
-      'SharableKanbanBoard',
-      'Sharable Kanban board',
+      'ShareableKanbanBoard',
+      'Shareable Kanban board',
       columnToShowIn,
       {
         /* Enable javascript in the webview */

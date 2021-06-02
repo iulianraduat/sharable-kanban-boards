@@ -53,7 +53,7 @@ async function openKanbanBoard(context: vscode.ExtensionContext) {
 
   const existingNames: string[] = getExistingNames(allBoards);
   if (existingNames.length === 0) {
-    vscode.window.showInformationMessage(`Sharable Kanban boards: no saved boards exist in "${configPath}".`);
+    vscode.window.showInformationMessage(`Shareable Kanban boards: no saved boards exist in "${configPath}".`);
     return;
   }
 
@@ -92,5 +92,5 @@ async function deleteKanbanBoard() {
   }
   delete boards[name];
   saveAllBoards(boards);
-  vscode.window.showInformationMessage(`Sharable Kanban boards: Removed board '${name}'`);
+  vscode.window.showInformationMessage(`Shareable Kanban boards: Removed board '${name}'`);
 }

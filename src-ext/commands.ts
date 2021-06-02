@@ -22,11 +22,11 @@ const demoTags = ['Epic', 'Story', 'Task', 'Subtask', 'Bug', 'Blocked'];
 const demoTasks: TTask[] = [
   {
     id: 'f037e9b4ec0d417f9c69dc8929f69700',
-    title: 'Sharable Kanban board',
+    title: 'Shareable Kanban board',
     status: 'In progress',
     tags: ['Story'],
     priority: 3,
-    description: 'Using sharable Kanban board',
+    description: 'Using shareable Kanban board',
     assignees: ['Me', 'Team'],
     dependOn: [
       'f037e9b4ec0d417f9c69dc8929f69701',
@@ -36,11 +36,11 @@ const demoTasks: TTask[] = [
   },
   {
     id: 'f037e9b4ec0d417f9c69dc8929f69701',
-    title: 'Install the "Sharable Kanban board" extension',
+    title: 'Install the "Shareable Kanban board" extension',
     status: 'Done',
     tags: ['Task'],
     priority: 5,
-    description: 'Sharable Kanban board is available inside of Visual Studio Code',
+    description: 'Shareable Kanban board is available inside of Visual Studio Code',
     assignees: ['Me'],
     comments: [
       {
@@ -52,7 +52,7 @@ const demoTasks: TTask[] = [
   },
   {
     id: 'f037e9b4ec0d417f9c69dc8929f69702',
-    title: 'Learn advanced use of the sharable Kanban board',
+    title: 'Learn advanced use of the shareable Kanban board',
     status: 'Backlog',
     tags: ['Task'],
     priority: 2,
@@ -61,7 +61,7 @@ const demoTasks: TTask[] = [
   },
   {
     id: 'f037e9b4ec0d417f9c69dc8929f69703',
-    title: 'Learn using the sharable Kanban board',
+    title: 'Learn using the shareable Kanban board',
     status: 'In progress',
     tags: ['Task'],
     priority: 3,
@@ -70,7 +70,7 @@ const demoTasks: TTask[] = [
   },
   {
     id: 'f037e9b4ec0d417f9c69dc8929f69704',
-    title: 'Learn to use the filtering of tasks in sharable Kanban board',
+    title: 'Learn to use the filtering of tasks in shareable Kanban board',
     status: 'To do',
     tags: ['Task'],
     priority: 4,
@@ -189,7 +189,7 @@ export function getConfigPath(): string | undefined {
   if (fs.existsSync(vscodePath) === false) {
     fs.mkdirSync(vscodePath);
   }
-  return `${vscodePath}${path.sep}sharable-kanban-boards.json`;
+  return `${vscodePath}${path.sep}shareable-kanban-boards.json`;
 }
 
 export function getExistingNames(allBoards: TJson) {

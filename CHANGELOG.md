@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "Sharable Kanban boards" extension will be documented in this file.
+All notable changes to the "Shareable Kanban boards" extension will be documented in this file.
 
 ## 1.0.0 (2021-05-12)
 
@@ -41,6 +41,20 @@ All notable changes to the "Sharable Kanban boards" extension will be documented
 ### Changed
 
 - Fixed typo in extension's name
+
+### Removed
+
+- Nothing
+
+## 1.0.3 (2021-06-02)
+
+### Added
+
+- Nothing
+
+### Changed
+
+- Fixed typo in multipe places
 
 ### Removed
 
