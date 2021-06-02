@@ -20,15 +20,15 @@ Start using it today for gaining all beneficies offered by it.
 
 This extension makes available the following commands:
 
-- Sharable Kanban boards: Create a new board
-- Sharable Kanban boards: Open a board
-- Sharable Kanban boards: Delete a board
+- Shareable Kanban boards: Create a new board
+- Shareable Kanban boards: Open a board
+- Shareable Kanban boards: Delete a board
 
-See below the section **"How to use a Sharable Kanban board"** for a detailed description of how to use this extension.
+See below the section **"How to use a Shareable Kanban board"** for a detailed description of how to use this extension.
 
 ## Location of saved boards
 
-All Kanban boards are saved in .vscode/sharable-sharable-kanban-boards.json and hence you can commit it to your repo.
+All Kanban boards are saved in .vscode/sharable-kanban-boards.json and hence you can commit it to your repo.
 If you do manual changes in this file, take care to do not corrupt its structure.
 
 ## Requirements
@@ -57,7 +57,7 @@ Fork the [repo](https://github.com/iulian-radu-at/sharable-kanban-boards) and su
 
 ---
 
-## How to use a Sharable Kanban board
+## How to use a Shareable Kanban board
 
 ## Create a board
 

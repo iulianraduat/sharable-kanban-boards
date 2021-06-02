@@ -31,3 +31,17 @@ All notable changes to the "Sharable Kanban boards" extension will be documented
 ### Removed
 
 - Nothing
+
+## 1.0.2 (2021-06-02)
+
+### Added
+
+- Nothing
+
+### Changed
+
+- Fixed typo in extension's name
+
+### Removed
+
+- Nothing

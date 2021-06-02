@@ -1,8 +1,8 @@
 {
   "name": "sharable-kanban-boards",
-  "displayName": "Sharable Kanban boards",
+  "displayName": "Shareable Kanban boards",
   "description": "Shareable Kanban boards for Visual Studio Code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icon": "images/logo.png",
   "license": "GPL-3.0",
   "publisher": "iulian-radu-at",
@@ -17,6 +17,16 @@
   "engines": {
     "vscode": "^1.46.0"
   },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p tsconfig.ext.json",
+    "build-webview": "react-app-rewired build && rimraf out/webview.js.LICENSE.txt && rimraf build",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts",
+    "package": "vsce package",
+    "install:local": "code --install-extension shareable-kanban-boards-1.0.2.vsix",
+    "publish": "vsce publish"
+  },
   "categories": [
     "Other"
   ],
@@ -27,7 +37,7 @@
     "Management",
     "Todo",
     "Jira",
-    "sharable"
+    "shareable"
   ],
   "activationEvents": [
     "onCommand:sharableKanbanBoards.create",
@@ -54,17 +64,6 @@
       }
     ]
   },
-  "scripts": {
-    "vscode:prepublish": "yarn run compile",
-    "compile": "tsc -p tsconfig.ext.json",
-    "build-webview": "react-app-rewired build && rimraf out/webview.js.LICENSE.txt && rimraf build",
-    "watch": "tsc -watch -p ./",
-    "lint": "eslint src --ext ts",
-    "package": "vsce package",
-    "install:local": "code --install-extension sharable-kanban-boards-1.0.1.vsix",
-    "publish": "vsce publish"
-  },
-  "dependencies": {},
   "devDependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
