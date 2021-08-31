@@ -113,7 +113,7 @@ export function getBoard(name: string): TBoard | undefined {
 
   try {
     const boards = getAllBoards();
-    const board: TBoard | undefined = boards[name];
+    const board: TBoard | undefined = boards?.[name];
     if (board !== undefined) {
       return board;
     }

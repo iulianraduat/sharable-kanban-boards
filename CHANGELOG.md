@@ -59,3 +59,18 @@ All notable changes to the "Shareable Kanban boards" extension will be documente
 ### Removed
 
 - Nothing
+
+## 1.0.1 (2021-08-30)
+
+### Added
+
+- Nothing
+
+### Changed
+
+- Changed some UI elements
+- When you drag a ticket, only valid target columns remains displayed
+
+### Removed
+
+- Nothing
