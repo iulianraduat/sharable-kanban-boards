@@ -60,7 +60,7 @@ All notable changes to the "Shareable Kanban boards" extension will be documente
 
 - Nothing
 
-## 1.0.1 (2021-08-30)
+## 1.1.0 (2021-08-30)
 
 ### Added
 
@@ -70,6 +70,20 @@ All notable changes to the "Shareable Kanban boards" extension will be documente
 
 - Changed some UI elements
 - When you drag a ticket, only valid target columns remains displayed
+
+### Removed
+
+- Nothing
+
+## 1.1.1 (2021-09-02)
+
+### Added
+
+- Nothing
+
+### Changed
+
+- Corrected the bug related to not loading and saving the tasks
 
 ### Removed
 
