@@ -88,3 +88,18 @@ All notable changes to the "Shareable Kanban boards" extension will be documente
 ### Removed
 
 - Nothing
+
+## 1.1.2 (2022-02-04)
+
+### Added
+
+- Nothing
+
+### Changed
+
+- Updated packages
+- Added the License file
+
+### Removed
+
+- Nothing
