@@ -13,19 +13,15 @@ body.vscode-high-contrast {
 }
 body .MuiInputLabel-root,
 body .MuiInput-root,
-body .MuiFormHelperText-root {
+body .MuiFormHelperText-root,
+body .MuiOutlinedInput-root,
+body .MuiIconButton-root,
+body .MuiFormControl-root .MuiSvgIcon-root {
   color: var(--vscode-editor-foreground);
 }
-body .MuiInput-underline:before {
-  border-bottom-color: var(--vscode-editor-foreground);
-}
-,
-body .MuiInput-underline:after {
-  border-bottom-color: var(--vscode-editor-foreground);
-}
-body .MuiInput-underline:hover:before {
-  border-bottom-color: var(--vscode-editor-foreground) !important;
-}
+body .MuiInput-underline:before,
+body .MuiInput-underline:after,
+body .MuiInput-underline:hover:before,
 body .MuiInput-underline:hover:after {
   border-bottom-color: var(--vscode-editor-foreground) !important;
 }
@@ -37,6 +33,13 @@ body .MuiInput-formControl .MuiSvgIcon-root {
 }
 body .MuiFormControlLabel-root .MuiTypography-body1 {
   font-size: 0.75rem;
+}
+body .MuiOutlinedInput-notchedOutline {
+  border-color: unset;
+}
+body .MuiInputLabel-formControl {
+  padding: 0 5px;
+  background-color: var(--vscode-editor-background);
 }
 svg .tick,
 svg .today {

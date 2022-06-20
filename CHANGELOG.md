@@ -103,3 +103,18 @@ All notable changes to the "Shareable Kanban boards" extension will be documente
 ### Removed
 
 - Nothing
+
+## 1.1.3 (2022-06-20)
+
+### Added
+
+- Support link for extension's author (https://www.patreon.com/iulian_radu_at)
+
+### Changed
+
+- Fixed colors in UI for dark mode
+- Updated packages
+
+### Removed
+
+- Nothing
