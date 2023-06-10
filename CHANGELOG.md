@@ -132,3 +132,18 @@ All notable changes to the "Shareable Kanban boards" extension will be documente
 ### Removed
 
 - Nothing
+
+## 1.1.5 (2023-06-10)
+
+### Added
+
+- Nothing
+
+### Changed
+
+- Updated packages
+- Fixed the badges
+
+### Removed
+
+- Nothing

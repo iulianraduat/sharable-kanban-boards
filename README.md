@@ -1,8 +1,8 @@
 # Shareable Kanban Boards
 
-[![Marketplace Version](https://vsmarketplacebadges.dev/version/iulian-radu-at.sharable-kanban-boards.svg)](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards)
-[![Installs](https://vsmarketplacebadges.dev/installs/iulian-radu-at.sharable-kanban-boards.svg)](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards)
-[![Rating](https://vsmarketplacebadges.dev/rating-short/iulian-radu-at.sharable-kanban-boards.svg)](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards)
+[![Marketplace Version](https://badgen.net/vs-marketplace/v/iulian-radu-at.sharable-kanban-boards)](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards)
+[![Installs](https://badgen.net/vs-marketplace/i/iulian-radu-at.sharable-kanban-boards)](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards)
+[![Rating](https://badgen.net/vs-marketplace/rating/iulian-radu-at.sharable-kanban-boards)](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards)
 <a href="http://opensource.org/licenses/GPL-3.0" target="_blank" rel="noreferrer noopener"><img src="https://img.shields.io/badge/license-GPL-orange.svg?color=blue&amp;style=flat-square" alt="The GPL-3.0 License"></a>
 
 What if you can habe Kanban boards stored in the same git repo with your project?
