@@ -5,9 +5,9 @@
 [![Rating](https://badgen.net/vs-marketplace/rating/iulian-radu-at.sharable-kanban-boards)](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.sharable-kanban-boards)
 <a href="http://opensource.org/licenses/GPL-3.0" target="_blank" rel="noreferrer noopener"><img src="https://img.shields.io/badge/license-GPL-orange.svg?color=blue&amp;style=flat-square" alt="The GPL-3.0 License"></a>
 
-What if you can habe Kanban boards stored in the same git repo with your project?
+What if you can have Kanban boards stored in the same git repo with your project?
 It will be great.
-Especially because in this way you no longer need to pay for and manage additional tools, and you avoid the effort to mantain the tickets in the sync with the effective progress of the project.
+Especially because in this way you will no longer need to pay for and manage additional tools, and you avoid the effort to mantain the tickets in the sync with the effective progress of the project.
 
 This extension is doing exactly this. Also it is free of charge and it will remain so.
 The learning curve of using it is no curve at all, as using it is extremly intuitive.
